@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  outline: blue 1px solid;
  
 }
 
@@ -1266,7 +1267,7 @@ text-decoration: underline;
 
 .travell-hero {
   position: relative;
-  height: 190vh;
+  height: 200vh;
  
   color: #fff;
 }
@@ -1366,7 +1367,9 @@ section {
 .highlight-text::before {
   transition: transform 0.6s cubic-bezier(.25,.8,.25,1);
 }
-
+.h23{display: flex;
+justify-content: center;
+}
 
 
 
@@ -1504,7 +1507,7 @@ order:2;}
   }
 .see-more{
   justify-content: center;
-  margin-left: 290px;
+  margin-left: 200px;
 }
 
 .feature-image img {
@@ -1512,7 +1515,9 @@ order:2;}
   margin-right: 20px; 
   margin-left: 40px;
 }
-
+.h23{display: flex;
+justify-content: center;
+margin-top: -50px;}
 .disney-header{
   display: grid;
   grid-template-rows:repeat( 2,1fr);
@@ -1569,6 +1574,7 @@ order:2;}
   width: 30%;
   height: 60%;
 } */
+ 
  .heo{
   display: none;
  }
@@ -1624,4 +1630,5 @@ grid-template-rows: repeat(1,1fr);
   height: 300vh;
 }
 }      
+
 
