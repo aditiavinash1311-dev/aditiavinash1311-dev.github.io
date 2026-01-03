@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* outline: blue 1px solid; */
- 
 }
 
 body {
@@ -1862,5 +1860,12 @@ grid-template-rows: repeat(1,1fr);
 }
 .see-more{
   margin-right: 40rem;
+}
+.yhe {
+  height: 30vh;
+
+}
+.disney-section{
+  padding-top: 0;
 }
 }      
