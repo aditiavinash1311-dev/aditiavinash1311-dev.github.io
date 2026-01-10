@@ -1369,7 +1369,7 @@ section {
 justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+/* @media (min-width: 768px) and (max-width:1023px) {
   .menu,
   .subscribe,
   .nav-right {
@@ -1395,10 +1395,7 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 
 }
-/* .latest-stories{
-position:relative;
-top: -400px;
-} */
+
   .mobile-left,
   .mobile-center,
   .mobile-right {
@@ -1500,7 +1497,6 @@ order:2;}
 
 .feature-image img {
   height: 20px;
-  /* margin-right: 20px;  */
   margin-left: 40px;
 }
 .h23{display: flex;
@@ -1514,15 +1510,7 @@ margin-top: -50px;}
   text-align: center;
   margin-top: 60px;
 }
-/* .disney-row{
-  width: 120vh;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  padding: 0 0 ;
- 
-} */
+
 .year-text{
   order:2;
 }
@@ -1545,10 +1533,8 @@ margin-top: -50px;}
     text-align: center;
   }
   .disney-row{
-  /* width: 120vw; */
   display:flex;
   flex-direction: row;
-  /* flex-wrap: nowrap; */
   overflow-x: auto;
   padding: 0;
   
@@ -1563,19 +1549,11 @@ margin-left: -90px;
     height: auto;
   }
 
-  /* .disney-row {
-    grid-template-columns: repeat(3, 1fr);
-  } */
-
   .bow26-cards,
   .ngi26-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-/* .card{
-  width: 30%;
-  height: 60%;
-} */
- 
+
  .heo{
   display: none;
  }
@@ -1598,7 +1576,6 @@ margin-left: -90px;
   }
  .feature-card {
     margin-left: 0;
-    /* max-width: 800px; */
     width: 40rem;
     height: 340px;
   }
@@ -1608,7 +1585,6 @@ margin-left: -90px;
  .latest-stories{
 order:2;}
 .travell-title h1{
-  /* margin-bottom: 18rem; */
   white-space:nowrap;
   font-size: 42px;
 }
@@ -1633,7 +1609,6 @@ grid-template-rows: repeat(1,1fr);
 .see-more{
   margin-right: 40rem;
 }
-/* <!--modification--> */
 .travel-hero {
   position: relative;
   height: 200vh;
@@ -1687,7 +1662,7 @@ grid-template-rows: repeat(1,1fr);
    .travell-hero{
     height:202vh;
    }
-}       
+}        */
 
 
 
