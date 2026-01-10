@@ -378,6 +378,9 @@ text-decoration: underline;
   height: auto;
   display: block;
 }
+.water{
+  font-size: 35px; color:black; white-space:nowrap;text-align:center;
+}
 .ad-section {
   padding: 60px 100px;
   background-color: rgb(178, 177, 177);
@@ -1368,8 +1371,11 @@ section {
 .h23{display: flex;
 justify-content: center;
 }
+.travell-title-mobile{
+  display:none;
+}
 
-/* @media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 768px) and (max-width:1023px) {
   .menu,
   .subscribe,
   .nav-right {
@@ -1395,299 +1401,10 @@ display: grid;
 grid-template-columns: repeat(2,1fr);
 
 }
-
-  .mobile-left,
-  .mobile-center,
-  .mobile-right {
-    display: flex;
-    align-items: center;
-  }
-
-  .mobile-left {
-    justify-content: flex-start;
-  }
-
-  .mobile-center {
-    justify-content: center;
-  }
-
-  .mobile-right {
-    justify-content: flex-end;
-  }
-
-  .mobile-hamburger {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    cursor: pointer;
-  }
-
-  .mobile-hamburger span {
-    width: 22px;
-    height: 2px;
-    background: #000;
-  }
-  .mobile-logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .logo-box {
-    width: 18px;
-    height: 24px;
-    border: 2px solid #ffcc00;
-  }
-
-  .logo-text {
-    font-size: 10px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    line-height: 1.1;
-    color: #000;
-  }
-  .mobile-search {
-    font-size: 18px;
-    cursor: pointer;
-    color: #000;
-  }
-
-  body {
-    padding-top: 56px;
-  }
-
-.hero{
-  padding-top: 30px;
-}
-.hero h1{
-  font-size: 46px;
-}
-.hero p{
-  font-size: 13px;
-
-}
-
-.cutu{
-flex-direction:column;
-}
-  .picks {
-    flex-direction: column;
-    padding: 40px;
-  }
-
-  .picks-right {
-    margin-left: 0;
-    max-width: 100%;
-    height: 380px;
-  }
- .picks-left{
-order:2;}
-
-
-.hy{order:-1;}
-.news-card {
-    width: 100%;
-    height: auto;
-    display: grid;
-  }
-.see-more{
-  justify-content: center;
-  margin-left: 200px;
-}
-
-.feature-image img {
-  height: 20px;
-  margin-left: 40px;
-}
-.h23{display: flex;
-justify-content: center;
-margin-top: -50px;}
-.disney-header{
-  display: grid;
-  grid-template-rows:repeat( 2,1fr);
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 60px;
-}
-
-.year-text{
-  order:2;
-}
-.year-image{
-  order:-1;
-}
-  .cards-wrapper {
-    padding: 20px 0;
-    gap: 20px;
-  }
-  .feature-wrapper,
-  .ngm26-content {
-    flex-direction: column;
-    gap: 40px;
-    text-align: center;
-  }
-  .year-wrapper{
-     flex-direction: column;
-    gap: 40px;
-    text-align: center;
-  }
-  .disney-row{
-  display:flex;
-  flex-direction: row;
-  overflow-x: auto;
-  padding: 0;
-  
-
-padding-left: 90px;
-margin-left: -90px;
-}
-.disney-row::-webkit-scrollbar {
-  display: none;}
-  .feature-image img,
-  .year-image {
-    height: auto;
-  }
-
-  .bow26-cards,
-  .ngi26-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
- .heo{
-  display: none;
- }
- .helo{
-  display: block;
- }
- .bow26-cards{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
- }
- .ngi26-grid{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
- }
-.feature-card{
-  width: 300px;
-}
-  .footer-columns {
-    grid-template-columns: repeat(2, 1fr);
-  }
- .feature-card {
-    margin-left: 0;
-    width: 40rem;
-    height: 340px;
-  }
-  .fearuree-card {
-    margin-top: 5rem;
-  }
- .latest-stories{
-order:2;}
-.travell-title h1{
-  white-space:nowrap;
-  font-size: 42px;
-}
-.featuree-card {
-margin-top:100px;
-margin-left: 0;
-width: 900px;
-}
-.travel-content{
-display: grid;
-grid-template-rows: repeat(1,1fr);
-}
-.travel-hero{
-  height: 320vh;
-}
-.latest-stories{
-  margin-top: 0;
-}
-.travell-hero{
-  height: 300vh;
-}
-.see-more{
-  margin-right: 40rem;
-}
-.travel-hero {
-  position: relative;
-  height: 200vh;
-  background: url("./media/14.jpg") center/cover no-repeat;
-  color: #fff;
-}
-
-.travel-hero::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 75%;
-  background: linear-gradient(
-    to top,
-    rgb(0, 0, 0),
-    rgba(0, 0, 0, 0.849),
-    transparent
-  );
-  z-index: 1;
-}
-
-.seemorebhalu{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.seemoreimp{
-  margin-right: 0;
-  margin:0;
-}
-  .disney-section{
-    position:relative;
-    top:-361px;
-    background: none;
-
-  }
-  .yhe::after{
-    z-index: 0;
-  }
-  .feature-card{
-    width:auto;
-    height:500px;
-  }
-  .sarvasv{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-  }
-  
-   .travell-hero{
-    height:202vh;
-   }
-}        */
-
-
-
-@media (max-width: 769px) {
-  .menu,
-  .subscribe,
-  .nav-right {
-    display: none;
-  }
-  .nav-left{
-    display: none;
-  }
-  .navbar {
-    background: #fff;
-    height: 56px;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    padding: 0 16px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-  }
-
+/* .latest-stories{
+position:relative;
+top: -400px;
+} */
   .mobile-left,
   .mobile-center,
   .mobile-right {
@@ -1803,16 +1520,15 @@ margin-top: -50px;}
   text-align: center;
   margin-top: 60px;
 }
-.disney-row{
-  /* width: 120vw; */
+/* .disney-row{
+  width: 120vh;
   display:flex;
   flex-direction: row;
   flex-wrap: nowrap;
   overflow-x: auto;
   padding: 0 0 ;
-padding-left: 90px;
-}
-
+ 
+} */
 .year-text{
   order:2;
 }
@@ -1834,6 +1550,18 @@ padding-left: 90px;
     gap: 40px;
     text-align: center;
   }
+  .disney-row{
+  /* width: 120vw; */
+  display:flex;
+  flex-direction: row;
+  /* flex-wrap: nowrap; */
+  overflow-x: auto;
+  padding: 0;
+  
+
+padding-left: 90px;
+margin-left: -90px;
+}
 .disney-row::-webkit-scrollbar {
   display: none;}
   .feature-image img,
@@ -1841,9 +1569,9 @@ padding-left: 90px;
     height: auto;
   }
 
-  .disney-row {
+  /* .disney-row {
     grid-template-columns: repeat(3, 1fr);
-  }
+  } */
 
   .bow26-cards,
   .ngi26-grid {
@@ -1911,11 +1639,305 @@ grid-template-rows: repeat(1,1fr);
 .see-more{
   margin-right: 40rem;
 }
+/* <!--modification--> */
+.travel-hero {
+  position: relative;
+  height: 200vh;
+  background: url("./media/14.jpg") center/cover no-repeat;
+  color: #fff;
+}
+
+.travel-hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.849),
+    transparent
+  );
+  z-index: 1;
+}
+
+.seemorebhalu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seemoreimp{
+  margin-right: 0;
+  margin:0;
+}
+  .disney-section{
+    position:relative;
+    top:-361px;
+    background: none;
+
+  }
+  .yhe::after{
+    z-index: 0;
+  }
+  .feature-card{
+    width:auto;
+    height:500px;
+  }
+  .sarvasv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+   .travell-hero{
+    height:202vh;
+   }
+}       
+
+
+
+@media (max-width: 768px) {
+  .menu,
+  .subscribe,
+  .nav-right {
+    display: none;
+  }
+  .nav-left{
+    display: none;
+  }
+  .navbar {
+    background: #fff;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 0 16px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+
+  .mobile-left,
+  .mobile-center,
+  .mobile-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-left {
+    justify-content: flex-start;
+  }
+
+  .mobile-center {
+    justify-content: center;
+  }
+
+  .mobile-right {
+    justify-content: flex-end;
+  }
+
+  .mobile-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+  }
+
+  .mobile-hamburger span {
+    width: 22px;
+    height: 2px;
+    background: #000;
+  }
+  .mobile-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-box {
+    width: 18px;
+    height: 24px;
+    border: 2px solid #ffcc00;
+  }
+
+  .logo-text {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 1.1;
+    color: #000;
+  }
+  .mobile-search {
+    font-size: 18px;
+    cursor: pointer;
+    color: #000;
+  }
+
+  body {
+    padding-top: 56px;
+  }
+
+.hero{
+  padding-top: 30px;
+}
+.hero h1{
+  font-size: 46px;
+}
+.hero p{
+  font-size: 13px;
+
+}
+
+.cutu{
+flex-direction:column;
+}
+  .picks {
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .picks-right {
+    margin-left: 0;
+    max-width: 100%;
+    height: 380px;
+  }
+ .picks-left{
+order:2;}
+
+
+.hy{order:-1;}
+.news-card {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+  }
+.see-more{
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.feature-image img {
+  height: 20px;
+  
+}
+.h23{display: flex;
+justify-content: center;
+margin-top: -50px;}
+.disney-header{
+  display: grid;
+  grid-template-rows:repeat( 2,1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+}
+.disney-row{
+  /* width: 120vw; */
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 0 0 ;
+padding-left: 90px;
+}
+
+.year-text{
+  order:2;
+}
+.year-image{
+  order:-1;
+}
+  .cards-wrapper {
+    padding: 20px 0;
+    gap: 20px;
+  }
+  .feature-wrapper,
+  .ngm26-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .year-wrapper{
+     flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+.disney-row::-webkit-scrollbar {
+  display: none;}
+  .feature-image img,
+  .year-image {
+    height: auto;
+  }
+.disney-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+.bow26-cards,
+  .ngi26-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+.heo{
+  display: none;
+ }
+ .helo{
+  display: block;
+ }
+ .bow26-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+ .ngi26-grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ }
+.feature-card{
+  width: 300px;
+}
+  .footer-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+ .feature-card {
+    margin-left: 0;
+    /* max-width: 800px; */
+    width: 40rem;
+    height: 340px;
+  }
+  .fearuree-card {
+    margin-top: 5rem;
+  }
+ .latest-stories{
+order:2;}
+.travell-title h1{
+  /* margin-bottom: 18rem; */
+  white-space:nowrap;
+  font-size: 42px;
+}
+.featuree-card {
+margin-top:100px;
+margin-left: 0;
+width: 900px;
+}
+.travel-content{
+display: grid;
+grid-template-rows: repeat(1,1fr);
+}
+.travel-hero{
+  height: 320vh;
+}
+.latest-stories{
+  margin-top: 0;
+}
+.travell-hero{
+  height: 300vh;
+}
+.see-more{
+  margin-right: 40rem;
+}
  /* modification */
  
  body{
   outline:1px solid blue;
-  padding:10px;
  }
  .picks-right{
   width:100%;
@@ -1933,7 +1955,7 @@ grid-template-rows: repeat(1,1fr);
 
  .news-card{
   width:100%;
-  height:620px;
+  height:fit-content;
   margin-bottom:20px;
 
 }
@@ -1946,7 +1968,9 @@ grid-template-rows: repeat(1,1fr);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left:-180px;
+}
+.see-more{
+  margin:0;
 }
 .seemoreimp{
   margin-right: 0;
@@ -1996,8 +2020,8 @@ grid-template-rows: repeat(1,1fr);
   z-index: 1;
 }
 .disney-section{
-  padding:0;
-  top:-285px;
+   padding:0;                                           /*     main */
+  top:5vh;
 }
 .disney-row{
   padding-left: 40px;
@@ -2015,7 +2039,120 @@ grid-template-rows: repeat(1,1fr);
 .travell-hero{
   height:300vh;
 }
-.card{
-  width:211px;
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 560px;
+}
+.card {
+  width: 70vw;
+  max-width: 87vw;
+  height: 420px;
+}
+
+.left1{
+  margin-left:61vw;
+  
+}
+.right1{
+  margin-left:-33vw;
+  
+}
+.right2{
+ display:none;
+}
+.left2{
+  display:none;}
+.card.active{
+  width:100vw;
+  height:auto;
+  max-height:86vh;
+}
+.hero{
+  padding-top:11vh;
+}
+.ad-banner{
+  padding:0;
+  /* height:5vh;
+  width:5vw; */
+}
+.ad-text{
+  font-size:12vw;
+}
+.ad-section{
+  display:none;
+}
+.water{
+  white-space: wrap;
+}
+.show-overlay{
+  position:absolute;
+}
+.yhe-section{
+  display:flex;
+  flex-direction: column;
+  gap:1vh;
+}
+.you{
+  position:relative;
+  top:-9vh;
+}
+.overlay h1{
+  white-space: wrap;
+}
+.overlay h1{
+  font-size:30px;
+
+}
+.feature-card, .news-card img{
+  width:110vw;
+  height:69vw;
+}
+.latest-stories{
+  margin-left: 3vw;
+}
+.editorial-content{
+  margin-left:-9vw;
+}
+.travell-title-mobile{
+  display:block;
+  position: absolute;
+
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+  margin-top: 90px;
+}
+
+.travell-title{
+  display:none;
+
+}
+.underlineE{
+  margin: 0;
+  padding:0;
+}
+.me{
+  display:flex;
+  justify-content: center;
+}
+.travell-content{
+  /* margin-top:20vw; */
+  
+
+}
+.story p{
+  white-space: normal;
+}
+.class{
+  height:fit-content;
+}
+.travel-content{
+  bottom:0;
+  display:flex;
+  flex-direction: column;
+
 }
 }
