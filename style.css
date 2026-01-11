@@ -1215,7 +1215,6 @@ text-decoration: underline;
   max-width: 1000px;
 }
 
-
 .editorial-tag {
   display: block;
   font-size: 15px;
@@ -1672,6 +1671,7 @@ grid-template-rows: repeat(1,1fr);
   margin-right: 0;
   margin:0;
 }
+
   .disney-section{
     position:relative;
     top:-361px;
@@ -2138,11 +2138,7 @@ grid-template-rows: repeat(1,1fr);
   display:flex;
   justify-content: center;
 }
-.travell-content{
-  /* margin-top:20vw; */
-  
 
-}
 .story p{
   white-space: normal;
 }
